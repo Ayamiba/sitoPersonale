@@ -66,6 +66,8 @@ p {
     font-size: 17px;
     margin-bottom: 20px;
 }
+
+
 .home_centro {
 	background-color: transparent;
     padding: 60px 20px;
@@ -150,9 +152,20 @@ p {
     }
 }
 
+.main {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 30px;               
+    margin: 60px auto;
+    max-width: 1200px;       
+    padding: 0 20px;
+}
+
+
 .chiSono_centro {
-   
-    margin: 60px auto; 
+   	flex:2;
+    margin: 0; 
     max-width: 700px; 
     text-align: center; 
     
@@ -189,21 +202,37 @@ p {
     height: auto;
     border: none;       
     border-radius: 20px; 
+    transition: all 0.4s ease;
     
 }
 
-chiSono_sx{
-	position:left;
-	display: inline-block; 
-    margin: 40px auto;
-    
-    vertical-align:top;
+.container_profimg img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgba(74, 144, 226, 0.6); 
+    border-color: #5C9DFF;
 }
 
-.chiSono_sximg img{
-	max-width:500px;	
-	height: auto;
-    border: none;       
-    border-radius: 5px;
-    
+.chiSono_sx {
+    flex: 1;                 
+    max-width: 359px;
+    position: sticky;        
+    top: 120px;
+}
+
+.chiSono_sximg a {
+    display: block; 
+    text-decoration: none;
+}
+
+.chiSono_sximg img {
+    width: 100%;             
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #4A90E2;
+    filter: drop-shadow(0 0 15px rgba(74, 144, 226, 0.3));
+    transition: transform 0.3s ease;
+}
+
+.chiSono_sximg img:hover {
+    transform: scale(1.05);  
 }
