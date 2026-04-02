@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-	font-family: "Rationale", sans-serif;
+	
 	letter-spacing: 1px;
 	margin: 0;
 	padding: 0;
@@ -11,6 +11,10 @@ body {
 	min-height: 100vh; 
 }
 
+h1, h2, nav a, .meccanica-link {
+    font-family: "Rationale", sans-serif;
+    letter-spacing: 1.5px;
+}
 
 nav {
 	background-color: #4A90E2;
@@ -44,7 +48,6 @@ h1 {
   font-size: 36px;
   font-weight: 800;         
   margin-bottom: 20px;      
-  letter-spacing: 0.5px;
 }
 
 h2 {
@@ -57,14 +60,14 @@ h2 {
 }
 
 p {
-	color: #CCCCCC;          
- 	max-width: 800px;       
- 	margin-left: auto;       
- 	margin-right: auto;
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    color: #D1D1D1; 
+    line-height: 1.8; 
+    font-size: 17px;
+    margin-bottom: 20px;
 }
-
 .home_centro {
-	background-color: trnsparent;
+	background-color: transparent;
     padding: 60px 20px;
     text-align: center;
 }
@@ -145,4 +148,62 @@ p {
     100% {
         transform: translateY(100%);
     }
+}
+
+.chiSono_centro {
+   
+    margin: 60px auto; 
+    max-width: 700px; 
+    text-align: center; 
+    
+    background-color: rgba(30, 30, 30, 0.6); 
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px); 
+    border: 1px solid rgba(74, 144, 226, 0.2); 
+}
+
+.chiSono_centro p{
+	text-align: left;
+}
+
+
+.chiSono_centro h1 {
+    text-align: left;
+    margin-top: 0;
+    color: #5C9DFF; 
+}
+
+.chiSono_centro h2{
+	text-align: left;
+}
+
+.container_profimg{
+	 position: relative; 
+    display: inline-block; 
+    margin: 40px auto;
+}
+
+.container_profimg img{
+	max-width: 130px;     
+    height: auto;
+    border: none;       
+    border-radius: 20px; 
+    
+}
+
+chiSono_sx{
+	position:left;
+	display: inline-block; 
+    margin: 40px auto;
+    
+    vertical-align:top;
+}
+
+.chiSono_sximg img{
+	max-width:500px;	
+	height: auto;
+    border: none;       
+    border-radius: 5px;
+    
 }
