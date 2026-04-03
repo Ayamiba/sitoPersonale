@@ -155,18 +155,18 @@ p {
 .main {
     display: flex;
     justify-content: center; 
-    align-items: flex-start; 
+    align-items: flex-start;
     gap: 30px;               
     margin: 60px auto;
-    max-width: 1200px;       
+    max-width: 1400px;      
     padding: 0 20px;
 }
 
 
 .chiSono_centro {
-   	flex:2;
+   	flex: 1.2;
     margin: 0; 
-    max-width: 700px; 
+    
     text-align: center; 
     
     background-color: rgba(30, 30, 30, 0.6); 
@@ -214,7 +214,7 @@ p {
 
 .chiSono_sx {
     flex: 1;                 
-    max-width: 359px;
+    max-width: 350px;
     position: sticky;        
     top: 120px;
 }
@@ -226,13 +226,46 @@ p {
 
 .chiSono_sximg img {
     width: 100%;             
-    height: auto;
+    height: 700px;
     border-radius: 8px;
     border: 2px solid #4A90E2;
     filter: drop-shadow(0 0 15px rgba(74, 144, 226, 0.3));
     transition: transform 0.3s ease;
+    min-height: 500px;
+    object-fit: cover;
 }
 
 .chiSono_sximg img:hover {
     transform: scale(1.05);  
 }
+
+.chiSono_dx {
+    flex: 1;                 
+    max-width: 350px;
+    position: sticky;        
+    top: 120px;
+}
+
+
+.chiSono_dximg a {
+    display: block; 
+    text-decoration: none;
+}
+
+.chiSono_dximg img {
+    width: 100%;             
+    height: 700px;
+    border-radius: 8px;
+    border: 2px solid #4A90E2;
+    filter: drop-shadow(0 0 15px rgba(74, 144, 226, 0.3));
+    transition: transform 0.3s ease;
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.chiSono_dximg img:hover {
+    transform: scale(1.05);  
+}
+
+
+
