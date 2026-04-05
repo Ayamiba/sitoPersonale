@@ -163,7 +163,7 @@ p {
 }
 
 
-.chiSono_centro {
+.centro {
    	flex: 1.2;
     margin: 0; 
     
@@ -176,18 +176,18 @@ p {
     border: 1px solid rgba(74, 144, 226, 0.2); 
 }
 
-.chiSono_centro p{
+.centro p{
 	text-align: left;
 }
 
 
-.chiSono_centro h1 {
+.centro h1 {
     text-align: left;
     margin-top: 0;
     color: #5C9DFF; 
 }
 
-.chiSono_centro h2{
+.centro h2{
 	text-align: left;
 }
 
