@@ -191,6 +191,10 @@ p {
 	text-align: left;
 }
 
+.centro span{
+	color: #5C9DFF; 
+}
+
 .container_profimg{
 	 position: relative; 
     display: inline-block; 
@@ -265,6 +269,12 @@ p {
 
 .chiSono_dximg img:hover {
     transform: scale(1.05);  
+}
+.musica_sx, .musica_dx {
+    flex: 1;                 
+    max-width: 300px; 
+    position: sticky;        
+    top: 120px;
 }
 
 
