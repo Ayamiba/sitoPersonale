@@ -328,7 +328,7 @@ p {
    
     h1 { font-size: 28px; }
     h2 { font-size: 22px; }
-}
+
 
 .home_centro {
         padding: 40px 10px;
@@ -359,5 +359,5 @@ p {
         border: 1px solid #4A90E2;
         display: block;
     }
-
+}
 
